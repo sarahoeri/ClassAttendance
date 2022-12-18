@@ -153,6 +153,7 @@ class AddStudentFragment: Fragment(R.layout.fragment_add_student) {
             return true
         }
         catch (e: Exception){
+
             binding.edtYear.setError("Wrong year format")
             return false
         }
