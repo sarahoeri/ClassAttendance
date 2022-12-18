@@ -1,0 +1,56 @@
+<resources>
+
+
+    <string-array name="units">
+        <item>Visual Programming</item>
+        <item>Advanced Visual Programming</item>
+        <item>Software Engineering</item>
+        <item>System Analysis and Design</item>
+        <item>Calculus</item>
+        <item>Principles of Programming</item>
+        <item>Object Oriented Programming</item>
+        <item>Operating System Principles</item>
+        <item>Network Design</item>
+        <item>Engineering Drawing</item>
+        <item>Artificial Intelligence</item>
+        <item>Statistics</item>
+    </string-array>
+
+    <string-array name="lecturers">
+        <item>Peter Ngugi</item>
+        <item>Samuel Kamau</item>
+        <item>Felix Okoth</item>
+        <item>Wisen Njuki</item>
+    </string-array>
+
+    <string-array name="students">
+        <item>Martin Ngugi</item>
+        <item>Daniel Kamau</item>
+        <item>James Owino</item>
+        <item>Nathaniel Baraka</item>
+    </string-array>
+
+
+    <string-array name="years">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>Degree</item>
+        <item>Diploma</item>
+    </string-array>
+
+    <string-array name="fields">
+        <item>Computer-Technology</item>
+        <item>Information-Technology</item>
+        <item>Communications-Computer-Networks</item>
+
+    </string-array>
+
+    <string name="app_name">Class Attendance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

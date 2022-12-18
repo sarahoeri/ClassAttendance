@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.classattendance.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeSecretaryFragment"
+            app:destination="@id/homeSecretaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeSecretaryFragment"
+        android:name="com.example.classattendance.fragment.HomeSecretaryFragment"
+        android:label="fragment_home_secretary"
+        tools:layout="@layout/fragment_home_secretary" >
+        <action
+            android:id="@+id/action_homeSecretaryFragment_to_addStudentFragment2"
+            app:destination="@id/addStudentFragment2" />
+        <action
+            android:id="@+id/action_homeSecretaryFragment_to_addLecFragment"
+            app:destination="@id/addLecFragment" />
+        <action
+            android:id="@+id/action_homeSecretaryFragment_to_addUnitFragment"
+            app:destination="@id/addUnitFragment" />
+        <action
+            android:id="@+id/action_homeSecretaryFragment_to_attendanceFragment"
+            app:destination="@id/attendanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStudentFragment2"
+        android:name="com.example.classattendance.fragment.AddStudentFragment"
+        android:label="fragment_add_student"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/addLecFragment"
+        android:name="com.example.classattendance.fragment.AddLecFragment"
+        android:label="fragment_add_lec"
+        tools:layout="@layout/fragment_add_lec" />
+    <fragment
+        android:id="@+id/addUnitFragment"
+        android:name="com.example.classattendance.fragment.AddUnitFragment"
+        android:label="fragment_add_unit"
+        tools:layout="@layout/fragment_add_unit" />
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.example.classattendance.fragment.AttendanceFragment"
+        android:label="fragment_attendance"
+        tools:layout="@layout/fragment_attendance" >
+        <action
+            android:id="@+id/action_attendanceFragment_to_previousAttendanceFragment"
+            app:destination="@id/previousAttendanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/previousAttendanceFragment"
+        android:name="com.example.classattendance.fragment.PreviousAttendanceFragment"
+        android:label="fragment_previous_attendance"
+        tools:layout="@layout/fragment_previous_attendance" />
+</navigation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:elevation="5dp"
+    android:background="@color/white"
+    android:layout_margin="3dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/pos_tv"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/pos_tv"
+            app:layout_constraintEnd_toStartOf="@+id/reg_num_tv"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/pos_tv"
+            app:layout_constraintTop_toTopOf="@+id/pos_tv" />
+
+        <TextView
+            android:id="@+id/reg_num_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Reg Num"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/name_tv"
+            app:layout_constraintEnd_toStartOf="@+id/cbAttended"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/name_tv"
+            app:layout_constraintTop_toTopOf="@+id/name_tv"
+            />
+
+        <CheckBox
+            android:id="@+id/cbAttended"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:text="Attended"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/reg_num_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/reg_num_tv"
+            app:layout_constraintTop_toTopOf="@+id/reg_num_tv" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
