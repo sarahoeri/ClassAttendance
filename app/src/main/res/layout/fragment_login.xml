@@ -74,6 +74,33 @@
         layout="@layout/progress_bar"
         android:visibility="gone"/>
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="184dp"
+        android:layout_height="267dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="143dp"
+        android:src="@drawable/ic_baseline_notes_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="419dp"
+        android:text="Class Attendance"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

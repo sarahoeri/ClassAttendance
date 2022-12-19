@@ -16,6 +16,7 @@ class AddLecFragment: Fragment(R.layout.fragment_add_lec) {
     private lateinit var name: String
     private lateinit var phone: String
 
+
     lateinit var binding: FragmentAddLecBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
