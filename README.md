@@ -1,7 +1,8 @@
 ### ClassAttendance App
 ### System_dev_lab
 ### Tools used
-#### Java
+#### Kotlin
+#### Firebase database
 #### Gradle
 #### github projects
 #### automation tests (espresso)
